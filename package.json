@@ -42,6 +42,7 @@
     "@stdlib/types": "^0.0.x"
   },
   "devDependencies": {
+    "@stdlib/array-to-iterator": "^0.0.x",
     "@stdlib/assert-is-iterator-like": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
     "@stdlib/iter-linspace": "^0.0.x",
