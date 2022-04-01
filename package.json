@@ -1,0 +1,31 @@
+{
+  "name": "@stdlib/math-iter-special-besselj1",
+  "version": "0.0.0",
+  "description": "Create an iterator which evaluates the Bessel function of the first kind of order one for each iterated value.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/math-iter-special-besselj1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "math",
+    "special",
+    "bessel",
+    "j1",
+    "iterator",
+    "iterable",
+    "iterate"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
