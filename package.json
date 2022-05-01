@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-special-besselj1",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "Create an iterator which evaluates the Bessel function of the first kind of order one for each iterated value.",
   "license": "Apache-2.0",
   "author": {
