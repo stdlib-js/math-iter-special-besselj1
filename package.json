@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/math-base-special-besselj1": "^0.0.6",
     "@stdlib/math-iter-tools-map": "^0.0.7",
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/types": "^0.0.14",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.0.6",
