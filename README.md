@@ -45,19 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-iter-special-besselj1
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import iterBesselj1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-besselj1@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-special-besselj1/tags). For example,
-
-```javascript
-import iterBesselj1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-besselj1@v0.1.0-esm/index.mjs';
+var iterBesselj1 = require( '@stdlib/math-iter-special-besselj1' );
 ```
 
 #### iterBesselj1( iterator )
@@ -65,7 +76,7 @@ import iterBesselj1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-specia
 Returns an [iterator][mdn-iterator-protocol] which iteratively evaluates the [Bessel function of the first kind][@stdlib/math/base/special/besselj1] of order one.
 
 ```javascript
-import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@esm/index.mjs';
+var array2iterator = require( '@stdlib/array-to-iterator' );
 
 var it = iterBesselj1( array2iterator( [ 2.0, -1.0 ] ) );
 // returns <Object>
@@ -109,14 +120,9 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import iterBesselj1 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-special-besselj1@esm/index.mjs';
+```javascript
+var uniform = require( '@stdlib/random-iter-uniform' );
+var iterBesselj1 = require( '@stdlib/math-iter-special-besselj1' );
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = uniform( -2.0, 2.0, {
@@ -136,10 +142,6 @@ while ( true ) {
     }
     console.log( r.value );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -180,7 +182,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -210,8 +212,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-iter-special-besselj1.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-iter-special-besselj1
 
-[test-image]: https://github.com/stdlib-js/math-iter-special-besselj1/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/math-iter-special-besselj1/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/math-iter-special-besselj1/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-iter-special-besselj1/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-iter-special-besselj1/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-iter-special-besselj1?branch=main
@@ -244,13 +246,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1/tree/esm
+[@stdlib/math/base/special/besselj1]: https://github.com/stdlib-js/math-base-special-besselj1
 
-[@stdlib/math/iter/special/besselj0]: https://github.com/stdlib-js/math-iter-special-besselj0/tree/esm
+[@stdlib/math/iter/special/besselj0]: https://github.com/stdlib-js/math-iter-special-besselj0
 
-[@stdlib/math/iter/special/bessely0]: https://github.com/stdlib-js/math-iter-special-bessely0/tree/esm
+[@stdlib/math/iter/special/bessely0]: https://github.com/stdlib-js/math-iter-special-bessely0
 
-[@stdlib/math/iter/special/bessely1]: https://github.com/stdlib-js/math-iter-special-bessely1/tree/esm
+[@stdlib/math/iter/special/bessely1]: https://github.com/stdlib-js/math-iter-special-bessely1
 
 <!-- </related-links> -->
 
