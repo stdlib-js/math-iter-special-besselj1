@@ -39,12 +39,12 @@
   "dependencies": {
     "@stdlib/math-base-special-besselj1": "^0.1.0",
     "@stdlib/math-iter-tools-map": "^0.1.1",
-    "@stdlib/types": "^0.1.0"
+    "@stdlib/types": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.1.0",
     "@stdlib/assert-is-iterator-like": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/iter-linspace": "^0.1.0",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/random-iter-randu": "^0.1.0",
