@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var randu = require( '@stdlib/random-iter-randu' );
 var isnan = require( '@stdlib/math-base-assert-is-nan' );
 var isIteratorLike = require( '@stdlib/assert-is-iterator-like' );
