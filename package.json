@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-special-besselj1",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Create an iterator which evaluates the Bessel function of the first kind of order one for each iterated value.",
   "license": "Apache-2.0",
   "author": {
@@ -38,20 +38,20 @@
   },
   "dependencies": {
     "@stdlib/math-base-special-besselj1": "^0.2.1",
-    "@stdlib/math-iter-tools-map": "^0.2.1",
+    "@stdlib/math-iter-tools-map": "^0.2.2",
     "@stdlib/types": "^0.3.2"
   },
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.2.1",
-    "@stdlib/assert-is-iterator-like": "^0.2.1",
-    "@stdlib/iter-linspace": "^0.2.1",
-    "@stdlib/math-base-assert-is-nan": "^0.2.1",
+    "@stdlib/assert-is-iterator-like": "^0.2.2",
+    "@stdlib/iter-linspace": "^0.2.2",
+    "@stdlib/math-base-assert-is-nan": "^0.2.2",
     "@stdlib/random-iter-randu": "^0.2.1",
     "@stdlib/random-iter-uniform": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
