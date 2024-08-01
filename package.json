@@ -37,12 +37,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/math-base-special-besselj1": "^0.2.1",
+    "@stdlib/math-base-special-besselj1": "^0.2.2",
     "@stdlib/math-iter-tools-map": "^0.2.2",
     "@stdlib/types": "^0.3.2"
   },
   "devDependencies": {
-    "@stdlib/array-to-iterator": "^0.2.1",
+    "@stdlib/array-to-iterator": "^0.2.2",
     "@stdlib/assert-is-iterator-like": "^0.2.2",
     "@stdlib/iter-linspace": "^0.2.2",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
